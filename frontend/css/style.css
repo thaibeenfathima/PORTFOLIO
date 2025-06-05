@@ -2,8 +2,8 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #797979;
-    background: #ffffff;
+    color: #f3f0f0;
+    background: #0b0a0a;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -13,7 +13,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #414141;
+    color: #d70a0a;
 }
 
 a {
@@ -43,7 +43,7 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #ffffff;
+    color: #f4f4f4;
     background: #EF233C;
     border: 2px solid transparent;
     border-radius: 0;
@@ -165,7 +165,7 @@ a:focus {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: #f8f9fa;
+    background: #0a67c4;
 }
 
 @media (min-width: 992px) {
@@ -180,7 +180,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #ffffff !important;
+        background: #13d4db !important;
     }
     
     .navbar .navbar-brand {
@@ -218,7 +218,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #ffffff !important;
+        background: #f5f1f6 !important;
     }
     
     .navbar .navbar-brand {
@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(161, 4, 179, 0.95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -279,14 +279,14 @@ a:focus {
 }
 
 .hero .hero-text p {
-    color: #ffffff;
+    color: #0f0000;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .hero .hero-text h1 {
-    color: #ffffff;
+    color: #070000;
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -297,7 +297,7 @@ a:focus {
     display: inline-block;
     margin: 0;
     height: 35px;
-    color: #ffffff;
+    color: #080000;
     font-size: 35px;
     font-weight: 600;
 }
@@ -314,9 +314,9 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: #EF233C;
+    color: #090808;
     background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
+    box-shadow: inset 0 0 0 50px #fae9e9;
 }
 
 .hero .hero-btn .btn:hover {
@@ -429,7 +429,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #ffffff;
+    background: #c07cb2;
 }
 
 .section-header p::before {
@@ -527,7 +527,7 @@ a:focus {
 .about .progress {
     height: 10px;
     border-radius: 10px;
-    background: #dddddd;
+    background: #0c6193;
 }
 
 .about .progress .progress-bar {
@@ -554,22 +554,25 @@ a:focus {
 .experience {
     position: relative;
     padding: 45px 0 15px 0;
-}
+    
+    }
 
 .experience .timeline {
     position: relative;
     width: 100%;
+    color:#090808
 }
 
 .experience .timeline::after {
     content: '';
     position: absolute;
     width: 2px;
-    background: #EF233C;
+    background: #98def1;
     top: 0;
     bottom: 0;
     left: 50%;
     margin-left: -1px;
+    color:#070000
 }
 
 .experience .timeline .timeline-item {
@@ -577,16 +580,19 @@ a:focus {
     background: inherit;
     width: 50%;
     margin-bottom: 30px;
+    color:#070000
 }
 
 .experience .timeline .timeline-item.left {
     left: 0;
     padding-right: 30px;
+    color:#070000
 }
 
 .experience .timeline .timeline-item.right {
     left: 50%;
     padding-left: 30px;
+    color:#070000
 }
 
 .experience .timeline .timeline-item::after {
@@ -596,8 +602,8 @@ a:focus {
     height: 16px;
     top: 48px;
     right: -8px;
-    background: #ffffff;
-    border: 2px solid #EF233C;
+    background: #e3e5e8;
+    border: 2px solid #930363;
     border-radius: 16px;
     z-index: 1;
 }
@@ -615,7 +621,7 @@ a:focus {
   right: 10px;
   z-index: 1;
   border: 10px solid;
-  border-color: transparent transparent transparent #dddddd;
+  border-color: transparent transparent transparent #08010100;
 }
 
 .experience .timeline .timeline-item.right::before {
@@ -629,7 +635,7 @@ a:focus {
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #EF233C;
+    color: #840fddf3;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -1306,7 +1312,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #EF233C;
+    background: #040001;
 }
 
 .contact .container-fluid {
@@ -1317,7 +1323,7 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #EF233C;
+    background: #020000;
 }
 
 .contact .contact-form input {
@@ -1465,7 +1471,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #EF233C;
+    background: #0e000200;
 }
 
 .footer .container-fluid {

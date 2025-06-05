@@ -2,13 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Thaibeen Fathima - Portfolio</title>
+        <title>THAIBEEN FATHIMA S.A - Portfolio</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Portfolio of Thaibeen Fathima, Web Developer" name="keywords">
         <meta content="Portfolio website of Thaibeen Fathima, a skilled web developer specializing in frontend and backend development" name="description">
-
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+        <meta name="author" content="Thaibeen Fathima">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -47,7 +45,6 @@
         </div>
         <!-- Nav Bar End -->
 
-
         <!-- Hero Start -->
         <div class="hero" id="home">
             <div class="container-fluid">
@@ -56,7 +53,7 @@
                         <div class="hero-content">
                             <div class="hero-text">
                                 <p>I'm</p>
-                                <h1>Thaibeen Fathima</h1>
+                                <h1>Thaibeen fathima</h1>
                                 <h2></h2>
                                 <div class="typed-text">Web Developer, Frontend Developer, Backend Developer, Full Stack Developer</div>
                             </div>
@@ -70,7 +67,6 @@
             </div>
         </div>
         <!-- Hero End -->
-
 
         <!-- About Start -->
         <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
@@ -128,7 +124,6 @@
             </div>
         </div>
         <!-- About End -->
-        
         
         <!-- Service Start -->
         <div class="service" id="service">
@@ -215,7 +210,7 @@
                     </div>
                     <div class="timeline-item right wow fadeInUp" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">2024 - Present</div>
+                            <div class="timeline-date">2025 - Present</div>
                             <h2>Web Development Intern</h2>
                             <h4>Branddict Branding Agency</h4>
                             <p>
@@ -273,7 +268,8 @@
                             </div>
                             <div class="portfolio-text">
                                 <h3>E-learning Platform</h3>
-                                <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
+                                <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio"></a>
+                                <a class="btn" href="https://learningweb-5sih.onrender.com" target="_blank">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -284,7 +280,7 @@
                             </div>
                             <div class="portfolio-text">
                                 <h3>Diabetic Retinopathy Detection</h3>
-                                <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
+                                <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio"></a>
                             </div>
                         </div>
                     </div>
@@ -295,7 +291,7 @@
                             </div>
                             <div class="portfolio-text">
                                 <h3>Tic-Tac-Toe Game</h3>
-                                <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
+                                <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio"></a>
                             </div>
                         </div>
                     </div>
@@ -306,7 +302,7 @@
                             </div>
                             <div class="portfolio-text">
                                 <h3>Smart Calculator</h3>
-                                <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
+                                <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio"></a>
                             </div>
                         </div>
                     </div>
@@ -317,7 +313,7 @@
                             </div>
                             <div class="portfolio-text">
                                 <h3>Stopwatch App</h3>
-                                <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
+                                <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio"></a>
                             </div>
                         </div>
                     </div>
@@ -328,7 +324,7 @@
                             </div>
                             <div class="portfolio-text">
                                 <h3>Web Development Projects</h3>
-                                <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
+                                <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio"></a>
                             </div>
                         </div>
                     </div>
@@ -336,6 +332,7 @@
             </div>
         </div>
         <!-- Portfolio End -->
+
         <!-- Contact Start -->
         <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
             <div class="container-fluid">
@@ -346,7 +343,7 @@
                                 <h2>Get in Touch</h2>
                                 <p><i class="fa fa-map-marker"></i>Chennai, Tamil Nadu, India</p>
                                 <p><i class="fa fa-phone"></i>+91 9384556889</p>
-                                <p><i class="fa fa-envelope"></i>fathimathaibeen@example.com</p>
+                                <p><i class="fa fa-envelope"></i>fathimathaibeen@gmail.com</p>
                                 <div class="social">
                                     <a href="https://www.linkedin.com/in/thaibeen-fathima-a15a72317/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                     <a href="https://github.com/thaibeenfathima" target="_blank"><i class="fab fa-github"></i></a>
@@ -359,19 +356,19 @@
                                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
                                     <div class="control-group">
                                         <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                        <p class="help-block"></p>
+                                        <p class="help-block error-message" id="nameError"></p>
                                     </div>
                                     <div class="control-group">
                                         <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                        <p class="help-block"></p>
+                                        <p class="help-block error-message" id="emailError"></p>
                                     </div>
                                     <div class="control-group">
                                         <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                        <p class="help-block"></p>
+                                        <p class="help-block error-message" id="subjectError"></p>
                                     </div>
                                     <div class="control-group">
                                         <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                        <p class="help-block"></p>
+                                        <p class="help-block error-message" id="messageError"></p>
                                     </div>
                                     <div>
                                         <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
@@ -385,7 +382,6 @@
         </div>
         <!-- Contact End -->
 
-
         <!-- Footer Start -->
         <div class="footer wow fadeIn" data-wow-delay="0.3s">
             <div class="container-fluid">
@@ -395,7 +391,7 @@
                         <h3>Chennai, Tamil Nadu, India</h3>
                         <div class="footer-menu">
                             <p>+91 9384556889</p>
-                            <p>fathimathaibeen@example.com</p>
+                            <p>fathimathaibeen@gmail.com</p>
                         </div>
                         <div class="footer-social">
                             <a href="https://www.linkedin.com/in/thaibeen-fathima-a15a72317/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -410,17 +406,14 @@
         </div>
         <!-- Footer End -->
         
-        
         <!-- Back to top button -->
         <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
         
         <!-- Pre Loader -->
         <div id="loader" class="show">
             <div class="loader"></div>
         </div>
 
-        
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
@@ -432,11 +425,165 @@
         <script src="lib/isotope/isotope.pkgd.min.js"></script>
         <script src="lib/lightbox/js/lightbox.min.js"></script>
         
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
-
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        
+        <!-- EmailJS Script -->
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script>
+            // Initialize EmailJS with your User ID
+            emailjs.init('GVs4ZpFTJ351XLa6b');
+
+            document.addEventListener('DOMContentLoaded', function() {
+                const contactForm = document.getElementById('contactForm');
+                const submitBtn = document.getElementById('sendMessageButton');
+                const successDiv = document.getElementById('success');
+                const currentTime = new Date().toLocaleString();
+
+                // Improved email validation
+                const validateEmail = (email) => {
+                    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+                };
+
+                // Form validation function
+                const validateForm = () => {
+                    let isValid = true;
+                    const errors = {
+                        name: '',
+                        email: '',
+                        subject: '',
+                        message: ''
+                    };
+
+                    const name = document.getElementById('name').value.trim();
+                    const email = document.getElementById('email').value.trim();
+                    const subject = document.getElementById('subject').value.trim();
+                    const message = document.getElementById('message').value.trim();
+
+                    if (!name || name.length < 2) {
+                        errors.name = 'Name must be at least 2 characters';
+                        isValid = false;
+                    }
+
+                    if (!email || !validateEmail(email)) {
+                        errors.email = 'Please enter a valid email';
+                        isValid = false;
+                    }
+
+                    if (!subject || subject.length < 5) {
+                        errors.subject = 'Subject must be at least 5 characters';
+                        isValid = false;
+                    }
+
+                    if (!message || message.length < 10) {
+                        errors.message = 'Message must be at least 10 characters';
+                        isValid = false;
+                    }
+
+                    return { isValid, errors };
+                };
+
+                // Display form errors
+                const displayErrors = (errors) => {
+                    Object.keys(errors).forEach(key => {
+                        const errorElement = document.getElementById(`${key}Error`);
+                        if (errorElement) {
+                            errorElement.textContent = errors[key];
+                        }
+                    });
+                };
+
+                // Clear all errors
+                const clearErrors = () => {
+                    document.querySelectorAll('.error-message').forEach(el => {
+                        el.textContent = '';
+                    });
+                };
+
+                // Handle form submission
+                // Replace your current form submission handler with this:
+contactForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    console.log('Form submission started');
+
+    // Clear previous errors and messages
+    clearErrors();
+    successDiv.textContent = '';
+    successDiv.style.display = 'none';
+
+    // Validate form
+    const { isValid, errors } = validateForm();
+    if (!isValid) {
+        displayErrors(errors);
+        console.log('Form validation failed', errors);
+        return;
+    }
+
+    // Set loading state
+    const originalBtnText = submitBtn.textContent;
+    submitBtn.textContent = 'Sending...';
+    submitBtn.disabled = true;
+
+    try {
+        console.log('Sending email...');
+        
+        // Prepare all form data including time
+        const templateParams = {
+            name: document.getElementById('name').value.trim(),
+            email: document.getElementById('email').value.trim(),
+            subject: document.getElementById('subject').value.trim(),
+            message: document.getElementById('message').value.trim(),
+            time: new Date().toLocaleString()
+        };
+
+        // Send using send() instead of sendForm()
+        const response = await emailjs.send(
+            'service_odqjveg', // Service ID
+            'template_a07u51c', // Template ID
+            templateParams,    // All template variables
+            'GVs4ZpFTJ351XLa6b' // User ID
+        );
+
+        console.log('Email sent successfully!', response);
+        
+        // Show success message
+        successDiv.textContent = 'Thank you! Your message has been sent successfully.';
+        successDiv.style.display = 'block';
+        contactForm.reset();
+        
+        // Scroll to success message
+        successDiv.scrollIntoView({ behavior: 'smooth' });
+
+    } catch (error) {
+        console.error('Email sending failed:', error);
+        
+        // Show user-friendly error message
+        if (error.status === 0) {
+            successDiv.textContent = 'Network error. Please check your internet connection and try again.';
+        } else {
+            successDiv.textContent = 'Oops! Something went wrong. Please try again later or contact me directly at fathimathaibeen@gmail.com';
+        }
+        successDiv.style.display = 'block';
+        
+    } finally {
+        // Reset button state
+        submitBtn.textContent = originalBtnText;
+        submitBtn.disabled = false;
+    }
+});
+                // Add input event listeners for real-time validation
+                ['name', 'email', 'subject', 'message'].forEach(field => {
+                    const input = document.getElementById(field);
+                    if (input) {
+                        input.addEventListener('input', function() {
+                            const errorElement = document.getElementById(`${field}Error`);
+                            if (errorElement) {
+                                errorElement.textContent = '';
+                            }
+                        });
+                    }
+                });
+            });
+        </script>
     </body>
 </html>
